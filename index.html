@@ -20,56 +20,129 @@
     
   }
 
-    .brandarea{
-        display:flex;
-        flex-direction:row;
-        justify-content:center
-        }
-        .brandname{
-        display:flex;
-        flex-direction:column;
-        }
-        .logo{
-        height:96px;
-        width:116px;
-        margin-top:22px;
-        margin-right:20px;
+   .brandarea{
+    display:flex;
+    flex-direction:row;
+    justify-content:center
+  }
+    .brandname{
+     display:flex;
+     flex-direction:column;
+  }
+    .logo{
+      height:96px;
+      width:116px;
+      margin-top:22px;
+      margin-right:20px;
         
-        }
-        .navbar{
-	height:80px;
-	background-color:#1F61AA;
+  }
+    .navbar{
+	    height:80px;
+	    background-color:#1F61AA;
     
 	}
    .nav-item{
-   margin-right:20px
-   }
+      margin-right:20px
+  }
    .nav-item:hover{
-	border-bottom: 3px solid white;
+	    border-bottom: 3px solid white;
+	}
+	 .verytop{
+	    height:130px;
+	    font-family:proza;
 	
 	}
-	.verytop{
-	height:130px;
-	font-family:proza;
-	
+	 .navbar-brand{
+	    display:none
 	}
-	.navbar-brand{
-	display:none
-	}
-  .endsection{
-  height:90px;
-  background-color:#1F61AA;
-  color:white;
-  margin-top:0px
+
+  .intake-container{
+    height:100px;
+    margin-top:40px;
+    background-color:#1F61AA;
+  }
+  .intake-text{
+    font-size:30px;
+    margin-top:25px
+  }
+  .intakebutton{
+    height:50px;
+    margin-top:25px;
+    position:relative;
+    right:40px
+  }
+  .whowearecontainer{
+    width:64%;
+    margin:45px auto;
+    line-height:27px
+  }
+  .whowearetext{
+    font-size: 17px;
+    border:2px solid #EEECEF;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px#EEECEF inset;
+  }
+  .newsdeskcontainer{
+    display:flex;
+    justify-content:space-between;
+    margin:80px 0 0 100px;
+  }
+  .announcementscontainer{
+    display:flex;
+    flex-direction:column;
+  }
+  .announcementscarousel{
+    width:550px;
+    height:470px;
+  }
+  .calendercontainer{
+    width:550px;
+    height: 533px; 
+    background-color: #EEECEF;
+    text-align:center;
+    margin: 0 95px;
+    overflow-y: scroll;
+  }
+  .calendertext{
+    margin-top:20px;
+    border-top:1px solid white;
+    padding-top:20px
+  }
+  .calenderdate{
+    color:#1F61AA;
+  }
+  .containerfour{
+    width:87%;
+    height:190px;
+    margin:80px auto 70px;
+    background-color: #EEECEF;
+    border-radius: 5px;
+  }
+  .containerfourtext{
+    padding:20px 30px 0 30px;
+    font-size: 17px;
+  }
+  .corevaluescontainer{
+    background-color: #EEECEF;
+    margin-bottom:0px;
+    text-align: center;
+    padding: 15px 0 10px 0;
+  }
+   .endsection{
+      height:90px;
+      background-color:#1F61AA;
+      color:white;
+      margin-top:0px
   
   }
-  .endsection a{
-    color:#D2EA4C
+   .endsection a{
+      color:#D2EA4C
   }
 }
 @media only screen and (max-width: 700px) {
 
-
+  
 
 }
 
@@ -144,13 +217,13 @@
     </a>
   </div>
 
-  <div style="height:100px;margin-top:40px;background-color:#1F61AA;" class="d-flex justify-content-around">
-    <span class="text-white" style="font-size:30px;margin-top:25px">INTAKE ONGOING</span><button type="button" class="btn btn-outline-primary bg-light" style="height:50px;margin-top:25px;position:relative;right:40px" onclick="location.assign('https://agiradaniel.github.io/christiane-school/admission/');">Apply here</button>
+  <div class="d-flex justify-content-around intake-container">
+    <span class="text-white intake-text">INTAKE ONGOING</span><button type="button" class="btn btn-outline-primary bg-light intakebutton" onclick="location.assign('https://agiradaniel.github.io/christiane-school/admission/');">Apply here</button>
   </div>
 
-<div class="text-center" style="width:64%;margin:45px auto;line-height:27px">
+<div class="text-center whowearecontainer">
   <h3 style="margin-bottom:25px">WHO WE ARE</h3>
-  <p style="font-size: 17px;border:2px solid #EEECEF;padding: 35px;border-radius: 10px;box-shadow: 5px 5px 5px#EEECEF inset;">Christiane school is a christian based mixed primary school founded in 2004 in 
+  <p class="whowearetext">Christiane school is a christian based mixed primary school founded in 2004 in 
     kitengela town Noonkopir area, the school begun in a humble setting of only one 
     classroom and one pupil and has since grown with an upward trajectory and now we 
     have enough facilities,teachers and staff to accommodate over 700 pupils, over the
@@ -162,16 +235,16 @@
      curriculum system, we are looking forward to admit more students and grow the christiane fraternity.</p>
 </div>
 
-<div style="display:flex;justify-content:space-between;margin:80px 0 0 100px;">
-<div style="display:flex;flex-direction:column;">
+<div class="newsdeskcontainer">
+<div class="announcementscontainer">
   <h3 style="margin:0 0 30px 0">Announcements</h3>
-  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" style="width:550px;height:470px;">
+  <div id="carouselExampleInterval" class="carousel slide annoucementscarousel" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="3000">
         <img src="web-launch.jpg" class="d-block w-100 carimg2" alt="...">
       </div>
      <div class="carousel-item" data-interval="3000">
-        <img src="intake-csk.jpg" class="d-block w-100 carimg2" alt="..." style="height:470px" onclick="location.assign('https://agiradaniel.github.io/christiane-school/admission/');" >
+        <img src="intake-csk.jpg" class="d-block w-100 carimg2" alt="..." onclick="location.assign('https://agiradaniel.github.io/christiane-school/admission/');" >
       </div>
       <!-- 
       <div class="carousel-item">
@@ -191,26 +264,26 @@
    
   </div>
 
-  <div style="width:550px;height: 533px; background-color: #EEECEF;text-align:center;margin: 0 95px;overflow-y: scroll;">
+  <div class="calendercontainer">
     <h3 style="margin-top:20px; ">Calender of events</h3>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Term 1 closing <span style="color:#1F61AA;">1st July 2022</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Holiday <span style="color:#1F61AA;">2nd July - 10th July</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Term 2 opening <span style="color:#1F61AA;">11th July 2022</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Half term break <span style="color:#1F61AA;">6th August - 13th August</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Term 2 closing <span style="color:#1F61AA;">16th September 2022</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Holiday <span style="color:#1F61AA;">17th September - 25th September</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Term 3 opening <span style="color:#1F61AA;">26th September 2022</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> Term 3 closing <span style="color:#1F61AA;">25th November 2022</span></p>
-    <p style="margin-top:20px;border-top:1px solid white; padding-top:20px"> KCPE period</p>
+    <p class="calendertext"> Term 1 closing <span class="calenderdate">1st July 2022</span></p>
+    <p class="calendertext"> Holiday <span class="calenderdate">2nd July - 10th July</span></p>
+    <p class="calendertext"> Term 2 opening <span class="calenderdate">11th July 2022</span></p>
+    <p class="calendertext"> Half term break <span class="calenderdate">6th August - 13th August</span></p>
+    <p class="calendertext"> Term 2 closing <span class="calenderdate">16th September 2022</span></p>
+    <p class="calendertext"> Holiday <span class="calenderdate">17th September - 25th September</span></p>
+    <p class="calendertext"> Term 3 opening <span class="calenderdate">26th September 2022</span></p>
+    <p class="calendertext"> Term 3 closing <span class="calenderdate">25th November 2022</span></p>
+    <p class="calendertext"> KCPE period</p>
     
 
   </div>
 
   </div>
 
-  <div class="text-center" style="width:87%;height:190px;margin:80px auto 70px;background-color: #EEECEF;border-radius: 5px;">
+  <div class="text-center containerfour">
     <h3 style="position:relative; top:20px;">WHY BRING YOUR CHILD TO CHRISTIANE</h3>
-    <p style="padding:20px 30px 0 30px;font-size: 17px; "> Christiane school provides a nurturing environment for your child to grow 
+    <p class="containerfourtext"> Christiane school provides a nurturing environment for your child to grow 
       spiritually, discover their talents and also excel  academically, we have professional teaching and non-teaching 
       staff that provide the highest quality of service and have been trained to give each child respect and equal treatment,
        we also have enough facilities to accommodate every student and ensure that everyone has a comfortable learning
@@ -220,7 +293,7 @@
 
 
 
-<div style="background-color: #EEECEF;margin-bottom:0px;text-align: center;padding: 15px 0 10px 0;">
+<div class="corevaluescontainer">
 <h3>Our core values</h3>
 <p>&#10004; Spirituality</p>
 <p>&#10004; Professionalism</p>
