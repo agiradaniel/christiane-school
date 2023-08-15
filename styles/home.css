@@ -1,3 +1,4 @@
+/*Desktop*/
 @media only screen and (min-width: 1023px) {
     .carimg{
 	height:650px
@@ -133,6 +134,8 @@
       color:#D2EA4C
   }
 }
+
+/*Mobile*/
 @media only screen and (max-width: 700px) {
 
   .carimg{
@@ -257,7 +260,6 @@
   }
   .containerfour{
     width:87%;
-    height:580px;
     margin:40px auto 45px;
     background-color: #EEECEF;
     border-radius: 5px;
@@ -286,6 +288,7 @@
 
 }
 
+/*Tablet*/
 @media only screen and (min-width: 700px) and  (max-width: 1023px) {
 
   .carimg{
@@ -391,7 +394,6 @@
   }
   .containerfour{
     width:87%;
-    height:190px;
     margin:80px auto 70px;
     background-color: #EEECEF;
     border-radius: 5px;
