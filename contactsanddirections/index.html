@@ -5,102 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
+    <link rel="stylesheet" href="contactsanddirections.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Christiane school kitengela</title>
 <style>
    
-  .brandarea{
-    display:flex;
-    flex-direction:row;
-    justify-content:center
-  }
-  .brandname{
-    display:flex;
-    flex-direction:column;
-  }
-  .logo{
-    height:96px;
-    width:116px;
-    margin-top:22px;
-    margin-right:20px;
- }
-  .navbar{
-  	height:80px;
-  	background-color:#1F61AA;  
-	}
-  .nav-item{
-   margin-right:20px
-  }
-  .nav-item:hover{
-	border-bottom: 3px solid white;
-	}
-	.verytop{
-	height:130px;
-	font-family:proza;
-	
-	}
-	.navbar-brand{
-	display:none
-	}
-  .contactsdiv{
-  margin:50px auto; 
-  width:50%;
-  height:260px; 
-  text-align: center;
-  border:2px solid #EEECEF;
-  border-radius: 15px;
-  font-size: 18px;
-  box-shadow: 5px 5px 5px#EEECEF inset;
-  }
-  .contacts{
-  padding-top:20px; 
-  font-family:proza;
-  }
-  .hteacher{
-  font-family:proza;
-  padding-top:7px;
-  }
-  .email{
-    font-family:proza;
-    padding-top:7px;
-  }
-  .directions{
-    margin:20px auto;
-    text-align:center;
-    width:82%
-  }
-  .directionstext{
-    width:23%;
-    font-size: 20px;
-    line-height:40px;
-    border:2px solid #EEECEF; 
-    border-radius: 15px;
-    font-family:proza;
-    box-shadow: 5px 5px 5px#EEECEF inset;
-  }
-  .corevaluescontainer{
-    background-color: #EEECEF;
-    margin-top:40px;
-    text-align: center;
-    padding: 15px 0 10px 0;
-  }
-  .maps{
-    border:0;
-    margin-left:30px; 
-    border-radius: 15px;
-  }
-  .endsection{
-  height:90px;
-  background-color:#1F61AA;
-  color:white;
   
-  
-  }
-  .endsection a{
-    color:#D2EA4C
-  }
 </style>
   </head>
   <body style="background-color:#F5FFFA;">
@@ -111,15 +22,15 @@
  
  <div class="brandarea" >
  <img src="logo.jpeg" class="logo" style="border-radius:45px">
- <div class="brandname " style=""><h2 style="margin-top:30px;font-weight:bold">CHRISTIANE SCHOOL KITENGELA</h2>
- <h5 class="text-center ">The fear of the Lord - Beginning of wisdom</h5></div>
+ <div class="brandname"><h2 class="brandnameh2">CHRISTIANE SCHOOL KITENGELA</h2>
+ <h5 class="text-center brandnameh5">The fear of the Lord - Beginning of wisdom</h5></div>
   </div>
  </header>
  
 <nav class="navbar navbar-expand-lg navbar-light ">
    <a class="navbar-brand text-white " href="#" style="display:none">Navigate </a>
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="btn btn-primary " >More</span>
+  <button class="navbar-toggler ml-auto" style="background-color:white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse text-dark" id="navbarNavAltMarkup">
     <div class="navbar-nav mx-auto">
@@ -137,14 +48,23 @@
 
 <div class="contactsdiv">
 
-  <h5 class="contacts">You can reach out to us using the following contacts</h5>
-  <p class="contacts">Secretary: 0710565646 <a href="tel:0710565646" ><button class="btn btn-primary callbtn" type="submit" style="margin-left:20px;background-color:#1F61AA;">Call secretary</button></a></p>
-  <p class="hteacher">Head teacher: 0722845750 <a href="tel:0713456359" ><button class="btn btn-primary callbtn" type="submit" style="margin-left:20px;background-color:#1F61AA;">Call head teacher</button></a></p>
-  <p class="email">School Email: christianeschool@gmail.com <a href="mailto:christianeschool@gmail.com" ><button class="btn btn-primary callbtn" type="submit" style="margin-left:20px;background-color:#1F61AA;">Email us</button></a></p>
+  <h5 style="font-family:proza;">You can reach out to us using the following contacts</h5>
+  <div class="contacts">
+    <span class="contactlabels">Secretary: 0710565646</span>
+    <a href="tel:0710565646" ><button class="btn btn-primary callbtn" type="submit" style="margin-left:20px;background-color:#1F61AA;">Call secretary</button></a>
+  </div>
+  <div class="contacts">
+    <span class="contactlabels">Head teacher: 0722845750</span>
+    <a href="tel:0713456359" ><button class="btn btn-primary callbtn" type="submit" style="margin-left:20px;background-color:#1F61AA;">Call head teacher</button></a>
+  </div>
+  <div class="contacts">
+    <span class="contactlabels">School Email: christianeschool@gmail.com</span>
+    <a href="mailto:christianeschool@gmail.com" ><button class="btn btn-primary callbtn" type="submit" style="margin-left:20px;background-color:#1F61AA;">Email us</button></a>
+  </div>
 
 </div>
 
-<div class="d-flex flex-row directions">
+<div class="directions">
 
   <p class="p-2 directionstext">Christiane school is located in kitengela 
     Noonkopir area near saitoti hospital and along Noonkopir road, the institution is

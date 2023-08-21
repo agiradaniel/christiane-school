@@ -51,7 +51,7 @@
     .pdfbody{
     margin:20px
     }
-    .formdownloadbtn{
+    .formdownloadbtndesktop{
         background-color:#1F61AA;
         position: absolute;
         right:110px;
@@ -104,6 +104,7 @@
             
       }
         .navbar{
+
     background-color:#1F61AA;
     
     }
@@ -112,7 +113,6 @@
     }
     .nav-item:hover{
     border-bottom: 3px solid white;
-    
     }
     .verytop{
     height:110px;
@@ -123,7 +123,8 @@
     display:none
     }
     .mobilepdf{
-        width:100%
+        width:100%;
+        text-align: center
     }
     .pdfdoc{
     display: none;    
@@ -136,9 +137,13 @@
     display: none; 
     margin:20px
     }
-    .formdownloadbtn{
+    .formdownloadbtndesktop{
+        display: none;
+    }
+    .formdownloadbtnmobile{
         background-color:#1F61AA;
-        margin-top:10px
+        margin-top:30px;
+        text-align: center;
     }
     .corevaluescontainer{
         background-color: #EEECEF;
@@ -214,9 +219,19 @@
     }
     .mobilepdf{
     display:none;
+
     }
     .pdfbody{
     margin:20px
+    }
+    .formdownloadbtndesktop{
+        display: none;
+    }
+    .formdownloadbtnmobile{
+        background-color:#1F61AA;
+        margin-top:10px;
+        text-align: center;
+
     }
     .corevaluescontainer{
         background-color: #EEECEF;
