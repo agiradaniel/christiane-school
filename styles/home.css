@@ -145,7 +145,8 @@
    .brandarea{
     display:flex;
     flex-direction:row;
-    justify-content:center
+    justify-content:center;
+    text-align: center;
   }
     .brandname{
      display:flex;
@@ -153,24 +154,19 @@
      
   }
     .brandnameh2{
-      margin-top:25px;
-      position:relative;
-      right:45px;
-      font-size: 14px;
-     font-weight:bold
+      margin-top:35px;
+      font-size: 18px;
+      font-weight:bold
     }
     .brandnameh5{
       font-size: 14px;
-      position:relative;
-      right:45px;
+      
     }
     .logo{
       height:66px;
       width:76px;
       margin-top:22px;
-      margin-right:20px;
-      position:relative;
-      right:30px
+      margin-right:10px;
         
   }
     .navbar{
@@ -266,7 +262,7 @@
     line-height:27px
   }
   .containerfourtext{
-    padding:20px 30px 0 30px;
+    padding:20px 30px 20px 30px;
     font-size: 17px;
   }
   .corevaluescontainer{
@@ -294,24 +290,35 @@
   .carimg{
 	height:650px
 	}
-   .brandarea{
-    display:flex;
-    flex-direction:row;
-    justify-content:center
-  }
-    .brandname{
-     display:flex;
-     flex-direction:column;
-  }
-    .logo{
-      height:96px;
-      width:116px;
-      margin-top:22px;
-      margin-right:20px;
-        
-  }
+    .brandarea{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        text-align: center;
+      }
+        .brandname{
+         display:flex;
+         flex-direction:column;
+         
+      }
+        .brandnameh2{
+          margin-top:35px;
+          font-size: 20px;
+         font-weight:bold
+        }
+        .brandnameh5{
+          font-size: 14px;
+          
+        }
+        .logo{
+          height:66px;
+          width:76px;
+          margin-top:22px;
+          margin-right:10px;
+            
+      }
     .navbar{
-	    height:80px;
+	   
 	    background-color:#1F61AA;
     
 	}
@@ -358,30 +365,34 @@
     box-shadow: 5px 5px 5px#EEECEF inset;
   }
   .newsdeskcontainer{
-    display:flex;
-    justify-content:space-between;
-    margin:80px 0 0 100px;
+    display:flex; 
+    flex-direction:column;
+    margin:10px auto 30px;
+    text-align: center;
     
   }
   .announcementscontainer{
     display:flex;
     flex-direction:column;
+    margin:20px auto 20px;
+    max-width:64%;
     
   }
   .announcementscarousel{
-    width:550px;
+  
     height:470px;
+    margin:auto;
   }
   .carimg2{
     height:470px;
     width:550px;
   }
   .calendercontainer{
-    width:550px;
+    width:64%;
     height: 533px; 
     background-color: #EEECEF;
     text-align:center;
-    margin: 0 95px;
+    margin: auto;
     overflow-y: scroll;
   }
   .calendertext{
@@ -399,7 +410,7 @@
     border-radius: 5px;
   }
   .containerfourtext{
-    padding:20px 30px 0 30px;
+    padding:20px 30px 20px 30px;
     font-size: 17px;
   }
   .corevaluescontainer{
