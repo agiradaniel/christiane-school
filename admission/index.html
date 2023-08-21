@@ -5,70 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
+    <link rel="stylesheet" href="admission.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Christiane school kitengela</title>
-<style>
-   
-    .brandarea{
-        display:flex;
-        flex-direction:row;
-        justify-content:center
-        }
-        .brandname{
-        display:flex;
-        flex-direction:column;
-        }
-        .logo{
-        height:96px;
-        width:116px;
-        margin-top:22px;
-        margin-right:20px;
-        
-        }
-        .navbar{
-	height:80px;
-	background-color:#1F61AA;
-    
-	}
-   .nav-item{
-   margin-right:20px
-   }
-   .nav-item:hover{
-	border-bottom: 3px solid white;
-	
-	}
-	.verytop{
-	height:130px;
-	font-family:proza;
-	
-	}
-	.navbar-brand{
-	display:none
-	}
-  .pdfdoc{
-  width:90%;
-  height:620px;
-  
-  }
-  .mobilepdf{
-  display:none;
-  }
-  .pdfbody{
-  margin:20px
-  }
-  .endsection{
-  height:90px;
-  background-color:#1F61AA;
-  color:white;
-  
-  
-  }
-  .endsection a{
-    color:#D2EA4C
-  }
-</style>
+
   </head>
   <body style="background-color:#F5FFFA;">
     
@@ -78,15 +19,15 @@
  
  <div class="brandarea" >
  <img src="logo.jpeg" class="logo" style="border-radius:45px">
- <div class="brandname " style=""><h2 style="margin-top:30px;font-weight:bold">CHRISTIANE SCHOOL KITENGELA</h2>
- <h5 class="text-center ">The fear of the Lord - Beginning of wisdom</h5></div>
+ <div class="brandname"><h2 class="brandnameh2">CHRISTIANE SCHOOL KITENGELA</h2>
+ <h5 class="text-center brandnameh5">The fear of the Lord - Beginning of wisdom</h5></div>
   </div>
  </header>
  
 <nav class="navbar navbar-expand-lg navbar-light ">
    <a class="navbar-brand text-white " href="#" style="display:none">Navigate </a>
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="btn btn-primary " >More</span>
+  <button class="navbar-toggler ml-auto" style="background-color:white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse text-dark" id="navbarNavAltMarkup">
     <div class="navbar-nav mx-auto">
@@ -102,7 +43,7 @@
   </div>
 </nav>
 
-<div style="margin:20px auto; background-color: #1F61AA; color:white; width:87%; height:40px;" class="">
+<div style="margin:20px auto; background-color: #1F61AA; color:white; width:87%; padding:3px" class="">
   
 
 <p style="position:relative; top:6px; font-size: 18px; text-align: center;border-radius: 5px">Kindly read the instructions on the form below, download it, fill in the details and then present it to the
@@ -112,13 +53,15 @@
 
 
 <div class="pdfbody text-center">
-  <a  href="admform.pdf" download><button type="button" class="btn btn-primary" style="background-color:#1F61AA; position: absolute;right:110px; top:352px">Download Form</button></a>
+  <a  href="admform.pdf" download><button type="button" class="formdownloadbtn btn btn-primary">Download Form</button></a>
   <embed src="admform.pdf" type="application/pdf" class="pdfdoc text-center" >
   </div>
-	<img src="admnform.PNG" class="mobilepdf">
-	<div class="downloadbtn text-center"><a  href="admform.pdf" download><button type="button" class="btn btn-primary" style="background-color:#1F61AA;margin-top:10px">Download Form</button></a></div>
+  <div class="mobilepdf">
+	  <img src="admform.png" style="width:100%; height: 100%;">
+  </div>
+
 	
-  <div style="background-color: #EEECEF;margin-top:40px;text-align: center;padding: 15px 0 10px 0;">
+  <div class="corevaluescontainer">
     <h3>Our core values</h3>
     <p>&#10004; Spirituality</p>
     <p>&#10004; Professionalism</p>

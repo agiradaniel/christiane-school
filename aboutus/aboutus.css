@@ -1,0 +1,329 @@
+@media only screen and (min-width: 1023px) {   
+    .brandarea{
+    display:flex;
+    flex-direction:row;
+    justify-content:center
+    }
+    .brandname{
+    display:flex;
+    flex-direction:column;
+    }
+    .brandnameh2{
+      margin-top:30px;
+      font-weight:bold
+    }
+    .logo{
+    height:96px;
+    width:116px;
+    margin-top:22px;
+    margin-right:20px;
+    
+    }
+    .navbar{
+      height:80px;
+      background-color:#1F61AA;
+
+      }
+    .nav-item{
+    margin-right:20px
+   }
+    .nav-item:hover{
+      border-bottom: 3px solid white;
+
+      }
+      .verytop{
+      height:130px;
+      font-family:proza;
+
+        }
+      .navbar-brand{
+      display:none
+      }
+    .ourvision{
+    width:64%;
+    margin:45px auto;
+    line-height:27px
+    }
+    .ourvisiontext{
+    font-size: 17px;
+    border:2px solid #EEECEF;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px#EEECEF inset;
+     }
+    .ourmission{
+    width:64%;
+    margin:45px auto;
+    line-height:27px
+    }
+  .ourmissiontext{
+    font-size: 17px;
+    border:2px solid #EEECEF;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px#EEECEF inset;
+   }
+  .whoweare{
+    width:64%;
+    margin:45px auto;
+    line-height:27px
+   }
+  .whowearetext{
+    font-size: 17px;
+    border:2px solid #EEECEF;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px#EEECEF inset;
+  }
+  .div4{
+    width:64%;
+    margin:45px auto;
+    line-height:27px
+ }
+  .div4text{
+  font-size: 17px;
+  border:2px solid #EEECEF;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px#EEECEF inset;
+ }
+  .corevaluescontainer{
+    background-color: #EEECEF;
+    margin-bottom:0px;
+    text-align: center;
+    padding: 15px 0 10px 0;
+   }
+
+  .endsection{
+  height:90px;
+  background-color:#1F61AA;
+  color:white;
+  }
+  .endsection a{
+  color:#D2EA4C
+  }
+  }
+
+/*Mobile*/  
+@media only screen and (max-width: 700px) {
+ .brandarea{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align: center;
+  }
+  .brandname{
+  display:flex;
+  flex-direction:column;
+  }
+  .brandnameh2{
+    margin-top:35px;
+    font-size: 16px;
+    font-weight:bold
+  }
+  .brandnameh5{
+    font-size: 12px;
+    
+  }
+.verytop{
+  height:100px;
+  font-family:proza;
+  }
+  .logo{
+    height:66px;
+    width:76px;
+    margin-top:22px;
+    margin-right:10px;
+      
+}
+  .navbar{
+    background-color:#1F61AA;
+  }
+ .nav-item{
+  margin-right:20px
+ }
+.nav-item:hover{
+    border-bottom: 3px solid white;
+  }
+  .navbar-brand{
+  display:none
+  }
+.ourvision{
+width:84%;
+margin:45px auto;
+line-height:27px
+}
+.ourvisiontext{
+font-size: 17px;
+border:2px solid #EEECEF;
+padding: 35px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px#EEECEF inset;
+}
+.ourmission{
+width:84%;
+margin:45px auto;
+line-height:27px
+}
+.ourmissiontext{
+font-size: 17px;
+border:2px solid #EEECEF;
+padding: 35px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px#EEECEF inset;
+}
+.whoweare{
+width:84%;
+margin:45px auto;
+line-height:27px
+}
+.whowearetext{
+font-size: 17px;
+border:2px solid #EEECEF;
+padding: 35px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px#EEECEF inset;
+}
+.div4{
+width:84%;
+margin:45px auto;
+line-height:27px
+}
+.div4text{
+font-size: 17px;
+border:2px solid #EEECEF;
+padding: 35px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px#EEECEF inset;
+}
+.corevaluescontainer{
+background-color: #EEECEF;
+margin-bottom:0px;
+text-align: center;
+padding: 15px 0 10px 0;
+}
+
+.endsection{
+height:90px;
+background-color:#1F61AA;
+color:white;
+
+
+}
+.endsection a{
+color:#D2EA4C
+}
+}
+
+/*Tablet*/
+@media only screen and (min-width: 700px) and  (max-width: 1023px) {
+    .brandarea{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        text-align: center;
+      }
+        .brandname{
+         display:flex;
+         flex-direction:column;
+         
+      }
+        .brandnameh2{
+          margin-top:35px;
+          font-size: 20px;
+         font-weight:bold
+        }
+        .brandnameh5{
+          font-size: 14px;
+          
+        }
+        .logo{
+          height:66px;
+          width:76px;
+          margin-top:22px;
+          margin-right:10px;
+            
+      }
+      .verytop{
+        height:100px;
+        font-family:proza;
+        }
+     
+        .navbar{
+          background-color:#1F61AA;
+        }
+       .nav-item{
+        margin-right:20px
+       }
+      .nav-item:hover{
+          border-bottom: 3px solid white;
+        }
+        .navbar-brand{
+        display:none
+        }
+      .ourvision{
+      width:84%;
+      margin:45px auto;
+      line-height:27px
+      }
+      .ourvisiontext{
+      font-size: 17px;
+      border:2px solid #EEECEF;
+      padding: 35px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px#EEECEF inset;
+      }
+      .ourmission{
+      width:84%;
+      margin:45px auto;
+      line-height:27px
+      }
+      .ourmissiontext{
+      font-size: 17px;
+      border:2px solid #EEECEF;
+      padding: 35px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px#EEECEF inset;
+      }
+      .whoweare{
+      width:84%;
+      margin:45px auto;
+      line-height:27px
+      }
+      .whowearetext{
+      font-size: 17px;
+      border:2px solid #EEECEF;
+      padding: 35px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px#EEECEF inset;
+      }
+      .div4{
+      width:84%;
+      margin:45px auto;
+      line-height:27px
+      }
+      .div4text{
+      font-size: 17px;
+      border:2px solid #EEECEF;
+      padding: 35px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px#EEECEF inset;
+      }
+      .corevaluescontainer{
+      background-color: #EEECEF;
+      margin-bottom:0px;
+      text-align: center;
+      padding: 15px 0 10px 0;
+      }
+      
+      .endsection{
+      height:90px;
+      background-color:#1F61AA;
+      color:white;
+      
+      
+      }
+      .endsection a{
+      color:#D2EA4C
+      }
+}
