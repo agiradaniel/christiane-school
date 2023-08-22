@@ -121,7 +121,8 @@
   }
     .uniformtablecontainer{
         width:95%;
-        margin:auto
+        margin:auto;
+        overflow-x: scroll;
     }
     .uniforminfo{
         width:80%;
