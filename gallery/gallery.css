@@ -113,6 +113,7 @@
   .gallerycarousel{
     margin:40px auto; 
     width:90%;
+    min-height: 250px;
     
   }
   .gallerycarouselinner{
