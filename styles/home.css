@@ -180,6 +180,9 @@
    .nav-item:hover{
 	    border-bottom: 3px solid white;
 	}
+  .mynavbartext{
+    text-align: center;
+  }
 	 .verytop{
 	    height:110px;
 	    font-family:proza;
@@ -328,8 +331,11 @@
    .nav-item:hover{
 	    border-bottom: 3px solid white;
 	}
+  .mynavbartext{
+    text-align: center;
+  }
 	 .verytop{
-	    height:130px;
+	    height:110px;
 	    font-family:proza;
 	
 	}

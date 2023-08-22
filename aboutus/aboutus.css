@@ -126,7 +126,7 @@
     
   }
 .verytop{
-  height:100px;
+  height:110px;
   font-family:proza;
   }
   .logo{
@@ -147,6 +147,9 @@
   }
   .navbar-brand{
   display:none
+  }
+  .mynavbartext{
+    text-align: center;
   }
 .ourvision{
 width:84%;
@@ -245,7 +248,7 @@ color:#D2EA4C
             
       }
       .verytop{
-        height:100px;
+        height:110px;
         font-family:proza;
         }
      
@@ -260,6 +263,9 @@ color:#D2EA4C
         }
         .navbar-brand{
         display:none
+        }
+        .mynavbartext{
+          text-align: center;
         }
       .ourvision{
       width:84%;

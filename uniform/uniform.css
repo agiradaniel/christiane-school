@@ -116,6 +116,9 @@
 	.navbar-brand{
 	display:none
 	}
+  .mynavbartext{
+    text-align: center;
+  }
     .uniformtablecontainer{
         width:95%;
         margin:auto
@@ -193,6 +196,9 @@
 	.navbar-brand{
 	display:none
 	}
+  .mynavbartext{
+    text-align: center;
+  }
     .uniformtablecontainer{
         width:90%;
         margin:auto

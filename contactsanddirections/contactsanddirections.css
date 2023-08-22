@@ -142,8 +142,12 @@
         font-family:proza;
         
         }
+
         .navbar-brand{
         display:none
+        }
+        .mynavbartext{
+          text-align: center;
         }
       .contactsdiv{
       margin:50px auto; 
@@ -247,12 +251,15 @@
         border-bottom: 3px solid white;
         }
         .verytop{
-        height:130px;
+        height:110px;
         font-family:proza;
         
         }
         .navbar-brand{
         display:none
+        }
+        .mynavbartext{
+          text-align: center;
         }
       .contactsdiv{
       margin:50px auto; 

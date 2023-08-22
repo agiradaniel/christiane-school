@@ -41,26 +41,17 @@
 	.navbar-brand{
 	display:none
 	}
-    .downloadbtndesktop{
-     position: absolute;
-     right:155px; 
-     top:246px
-    }
   .endsection{
   height:90px;
   background-color:#1F61AA;
   color:white;
-  
+ 
   
   }
   .endsection a{
     color:#D2EA4C
   }
-  td{
-    width:50%;
-  }
 }
-
 /*Mobile*/
 @media only screen and (max-width: 700px) {
     .brandarea{
@@ -91,7 +82,6 @@
             
       }
         .navbar{
-	
 	background-color:#1F61AA;
     
 	}
@@ -113,24 +103,16 @@
   .mynavbartext{
     text-align: center;
   }
-    .downloadbtndesktopdiv{
-        display: none;
-    }
   .endsection{
   height:90px;
   background-color:#1F61AA;
   color:white;
-  
+ 
   
   }
   .endsection a{
     color:#D2EA4C
   }
-  
-  td{
-    width:50%;
-  }
-
 }
 
 /*Tablet*/
@@ -163,7 +145,6 @@
             
       }
         .navbar{
-
 	background-color:#1F61AA;
     
 	}
@@ -185,20 +166,14 @@
   .mynavbartext{
     text-align: center;
   }
-    .downloadbtndesktopdiv{
-        display: none;
-    }
   .endsection{
   height:90px;
   background-color:#1F61AA;
   color:white;
-  
+ 
   
   }
   .endsection a{
     color:#D2EA4C
-  }
-  td{
-    width:50%;
   }
 }
