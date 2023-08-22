@@ -41,6 +41,13 @@
 	.navbar-brand{
 	display:none
 	}
+  .gallerycarousel{
+    margin:40px auto; 
+    width:70%;
+  }
+  .gallerycarouselinner{
+    height: 600px;
+  }
   .endsection{
   height:90px;
   background-color:#1F61AA;
@@ -102,6 +109,14 @@
 	}
   .mynavbartext{
     text-align: center;
+  }
+  .gallerycarousel{
+    margin:40px auto; 
+    width:90%;
+    
+  }
+  .gallerycarouselinner{
+    height: 250px;
   }
   .endsection{
   height:90px;
@@ -165,6 +180,14 @@
 	}
   .mynavbartext{
     text-align: center;
+  }
+  .gallerycarousel{
+    margin:40px auto; 
+    width:90%;
+    
+  }
+  .gallerycarouselinner{
+    height: 400px;
   }
   .endsection{
   height:90px;
