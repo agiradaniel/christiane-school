@@ -217,7 +217,7 @@
   .whowearetext{
     font-size: 17px;
     border:2px solid #EEECEF;
-    padding: 35px;
+    padding: 35px 35px 20px 35px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px#EEECEF inset;
   }
