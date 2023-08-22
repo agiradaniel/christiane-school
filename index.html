@@ -81,16 +81,20 @@
 
 <div class="text-center whowearecontainer">
   <h3 style="margin-bottom:25px">WHO WE ARE</h3>
-  <p class="whowearetext">Christiane school is a christian based mixed primary school founded in 2004 in 
-    kitengela town Noonkopir area, the school begun in a humble setting of only one 
-    classroom and one pupil and has since grown with an upward trajectory and now we 
-    have enough facilities,teachers and staff to accommodate over 700 pupils, over the
-     years we have done a number of KCPE exams and performed tremendously putting our 
-     school on the radar in kitengela town and it’s environs, our school is founded on 
-     strong values and is aimed to produce all rounded students who will stand out as 
-     principled individuals and leaders in the society, we are still growing and plans 
-     to build a junior secondary are underway in compliance with the competence based 
-     curriculum system, we are looking forward to admit more students and grow the christiane fraternity.</p>
+  <p class="whowearetext">Christiane School, established in 2004 within Kitengela's Noonkopir region, is a Christian-based mixed
+    primary institution. From its humble origins with just one classroom and a single pupil, the school has
+    evolved significantly. Today, boasting a robust upward trajectory, we possess ample facilities, a dedicated
+    teaching faculty, and a proficient support staff, capable of accommodating a student population exceeding 700.
+    Throughout our journey, we've consistently excelled in KCPE exams, thus prominently positioning our institution
+   in Kitengela town and its surroundings.<br/>
+   <span class="extratext hidden">Built upon a bedrock of unwavering values, our school is committed to cultivating well-rounded individuals primed
+   to shine as principled trailblazers in society. Our expansion continues, underscored by the recent introduction of
+   a junior secondary segment aligned with the competence-based curriculum. With optimism, we anticipate further growth
+   in both admissions and the Christiane community, continuing our journey of educational excellence</span>
+   <span class="readmorebtn"><button class="btn btn-primary" style="background-color: #EEECEF;border:1px solid #EEECEF; color: black; margin-top:13px">Read More</button></span>
+  </p>
+
+     
 </div>
 
 <div class="newsdeskcontainer">
@@ -166,6 +170,15 @@
     
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".readmorebtn").click(function() {
+        $(".extratext").toggleClass("hidden");
+
+       });
+});
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
