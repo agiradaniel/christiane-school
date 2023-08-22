@@ -46,6 +46,18 @@
      right:155px; 
      top:246px
     }
+    .paymentdetails{
+      width: 50%;
+      margin:40px auto; 
+      text-align: center; 
+      background-color: #EEECEF; 
+      padding: 20px; 
+      border-radius: 5px;
+    }
+    .paymentdetailsinner{
+      width:70%; 
+      margin:auto
+    }
   .endsection{
   height:90px;
   background-color:#1F61AA;
@@ -115,6 +127,17 @@
   }
     .downloadbtndesktopdiv{
         display: none;
+    }
+    .paymentdetails{
+      width: 95%;
+      margin:40px auto; 
+      text-align: center; 
+      background-color: #EEECEF; 
+      padding: 20px; 
+      border-radius: 5px;
+    }
+    .paymentdetailsinner{
+      margin:auto
     }
   .endsection{
   height:90px;
@@ -187,6 +210,18 @@
   }
     .downloadbtndesktopdiv{
         display: none;
+    }
+    .paymentdetails{
+      width: 80%;
+      margin:40px auto; 
+      text-align: center; 
+      background-color: #EEECEF; 
+      padding: 20px; 
+      border-radius: 5px;
+    }
+    .paymentdetailsinner{
+      width:70%; 
+      margin:auto
     }
   .endsection{
   height:90px;

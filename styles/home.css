@@ -111,10 +111,10 @@
   }
   .containerfour{
     width:87%;
-    height:190px;
     margin:80px auto 70px;
     background-color: #EEECEF;
     border-radius: 5px;
+    padding: 10px
   }
   .containerfourtext{
     padding:20px 30px 0 30px;
