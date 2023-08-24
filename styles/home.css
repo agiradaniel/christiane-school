@@ -2,7 +2,7 @@
 /*Desktop*/
 @media only screen and (min-width: 1023px) {
     .carimg{
-	height:700px
+	height:85vh
 	}
    .brandarea{
     display:flex;
