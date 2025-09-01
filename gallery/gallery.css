@@ -1,6 +1,9 @@
 /*Desktop*/
 @media only screen and (min-width: 1023px) {
-    .brandarea{
+  .carimg{
+    height: 600px;
+  }  
+  .brandarea{
         display:flex;
         flex-direction:row;
         justify-content:center;
@@ -41,13 +44,12 @@
 	.navbar-brand{
 	display:none
 	}
+  
   .gallerycarousel{
     margin:40px auto; 
     width:70%;
   }
-  .gallerycarouselinner{
-    height: 600px;
-  }
+  
   .endsection{
   height:90px;
   background-color:#1F61AA;
@@ -57,6 +59,29 @@
   }
   .endsection a{
     color:#D2EA4C
+  }
+  #consent-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    background-color: #1F61AA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    opacity: 0.8;
+    margin: 0 auto;
+  
+  }
+  
+  #consent-banner p {
+    margin: 0;
+    padding: 10px 0 10px;
+    font-weight: bold;
+    font-size: 17px;
   }
 }
 /*Mobile*/
@@ -113,11 +138,11 @@
   .gallerycarousel{
     margin:40px auto; 
     width:90%;
-    min-height: 250px;
+   
     
   }
-  .gallerycarouselinner{
-    height: 250px;
+  .carimg{
+    height: 40vh;
   }
   .endsection{
   height:90px;
@@ -128,6 +153,28 @@
   }
   .endsection a{
     color:#D2EA4C
+  }
+  #consent-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1F61AA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    opacity: 0.8;
+    margin: 0 auto;
+  
+  }
+  
+  #consent-banner p {
+    margin: 0;
+    padding: 5px 0 5px;
+    font-weight: bold;
+    font-size: 17px;
   }
 }
 
@@ -187,8 +234,8 @@
     width:90%;
     
   }
-  .gallerycarouselinner{
-    height: 400px;
+  .carimg{
+    height: 40vh;
   }
   .endsection{
   height:90px;
@@ -199,5 +246,27 @@
   }
   .endsection a{
     color:#D2EA4C
+  }
+  #consent-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1F61AA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    opacity: 0.8;
+    margin: 0 auto;
+  
+  }
+  
+  #consent-banner p {
+    margin: 0;
+    padding: 5px 0 5px;
+    font-weight: bold;
+    font-size: 17px;
   }
 }
