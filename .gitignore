@@ -1,0 +1,28 @@
+# Ignore the SSL/verification directory
+.well-known/
+
+# Logs
+*.log
+error_log
+logs/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# IDE settings
+.vscode/
+.idea/
+
+# Node (if you ever use frontend build tools)
+node_modules/
+
+# Composer
+/vendor/
+
+# Environment and config files
+.env
+.env.*

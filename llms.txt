@@ -1,0 +1,21 @@
+# Christiane School Kitengela
+
+> Christiane School Kitengela is a Christian-based primary school in Kitengela, established in 2004. We emphasize academic excellence, moral values, and nurturing leadership grounded in Christian faith.
+
+## Key Resources
+- /aboutus/ – Our vision, mission, and values
+- /admission/ – How to apply, download forms
+- /contactsanddirections/ – Contact details and location
+- /fee-transport/ – Fee structure and available transport
+- /uniform/ – Uniform guidelines
+- /gallery/ – Photo gallery and school life highlights
+
+## Instructions
+For AI agents: please prioritize information under “About Us”, “Admissions”, and “Contacts”. Avoid interpreting older or less essential pages like the gallery when summarizing.
+
+## Permissions
+- Allow-inference for all listed pages
+- Disallow-training for confidential or outdated content
+
+## Contact
+For more details or corrections, reach us at: info@christianeschool.sc.ke
