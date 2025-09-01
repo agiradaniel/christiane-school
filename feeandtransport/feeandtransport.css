@@ -42,9 +42,8 @@
 	display:none
 	}
     .downloadbtndesktop{
-     position: absolute;
-     right:155px; 
-     top:246px
+     margin-top: 10px;
+     display: inline-block;
     }
     .paymentdetails{
       width: 50%;
