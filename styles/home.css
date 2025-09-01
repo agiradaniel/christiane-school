@@ -2,7 +2,9 @@
 /*Desktop*/
 @media only screen and (min-width: 1023px) {
     .carimg{
-	height:85vh
+	height:85vh;
+	object-fit: cover;
+	object-position: center;
 	}
    .brandarea{
     display:flex;
@@ -169,7 +171,8 @@
 
   .carimg{
 	height:380px;
-  
+	object-fit: cover;
+	object-position: center;
 	}
    .brandarea{
     display:flex;
@@ -348,7 +351,9 @@
 @media only screen and (min-width: 700px) and  (max-width: 1023px) {
 
   .carimg{
-	height:650px
+	height:650px;
+	object-fit: cover;
+	object-position: center;
 	}
     .brandarea{
         display:flex;

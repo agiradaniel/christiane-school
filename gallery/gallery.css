@@ -2,6 +2,8 @@
 @media only screen and (min-width: 1023px) {
   .carimg{
     height: 600px;
+    object-fit: cover;
+    object-position: center;
   }  
   .brandarea{
         display:flex;
@@ -143,6 +145,8 @@
   }
   .carimg{
     height: 40vh;
+    object-fit: cover;
+    object-position: center;
   }
   .endsection{
   height:90px;
@@ -236,6 +240,8 @@
   }
   .carimg{
     height: 40vh;
+    object-fit: cover;
+    object-position: center;
   }
   .endsection{
   height:90px;
