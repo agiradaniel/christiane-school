@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="valuesGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F61AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2EA4C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#valuesGradient)" opacity="0.1"/>
+  
+  <!-- Shield shape -->
+  <path d="M 100 30 L 130 50 L 130 100 L 100 150 L 70 100 L 70 50 Z" fill="#1F61AA" opacity="0.8"/>
+  
+  <!-- Inner shield -->
+  <path d="M 100 50 L 120 65 L 120 100 L 100 130 L 80 100 L 80 65 Z" fill="#EEECEF"/>
+  
+  <!-- Cross -->
+  <rect x="95" y="80" width="10" height="40" fill="#1F61AA"/>
+  <rect x="80" y="95" width="40" height="10" fill="#1F61AA"/>
+  
+  <!-- Stars around shield -->
+  <polygon points="100,20 102,26 108,26 103,30 105,36 100,32 95,36 97,30 92,26 98,26" fill="#D2EA4C"/>
+  <polygon points="150,50 152,56 158,56 153,60 155,66 150,62 145,66 147,60 142,56 148,56" fill="#D2EA4C"/>
+  <polygon points="50,50 52,56 58,56 53,60 55,66 50,62 45,66 47,60 42,56 48,56" fill="#D2EA4C"/>
+  <polygon points="100,180 102,186 108,186 103,190 105,196 100,192 95,196 97,190 92,186 98,186" fill="#D2EA4C"/>
+  
+  <!-- Text -->
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1F61AA">Values</text>
+</svg>
