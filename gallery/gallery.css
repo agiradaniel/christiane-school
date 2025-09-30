@@ -164,13 +164,15 @@
     transform-origin: left;
   }
 
-  @keyframes countdown {
-    from {
-      transform: scaleX(1);
-    }
-    to {
-      transform: scaleX(0);
-    }
+}
+
+/* Global countdown animation - works on all devices */
+@keyframes countdown {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
   }
 }
 /*Mobile*/
