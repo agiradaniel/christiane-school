@@ -418,7 +418,195 @@
   }
 }
 
-/* Vintage Photo Styles */
+/* Vintage Photo Styles - Responsive Design */
+.vintage-photo-container {
+  margin: 30px 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.vintage-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  filter: sepia(20%) contrast(1.1) brightness(1.05);
+  transition: all 0.3s ease;
+  border: 3px solid #f5f5f5;
+  width: 100%;
+}
+
+.vintage-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+  filter: sepia(10%) contrast(1.15) brightness(1.1);
+}
+
+.vintage-photo-caption {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.photo-grid .vintage-photo {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.single-photo {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+.single-photo .vintage-photo {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Vintage Photo Frame Effect */
+.vintage-frame {
+  position: relative;
+  padding: 20px;
+  background: linear-gradient(45deg, #f4f1e8, #e8e0d0);
+  border-radius: 20px;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+  margin: 0 10px;
+}
+
+.vintage-frame::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid #8b7355;
+  border-radius: 15px;
+  pointer-events: none;
+}
+
+.vintage-frame .vintage-photo {
+  border: none;
+  border-radius: 10px;
+}
+
+/* Mobile Styles - Enhanced Responsiveness */
+@media only screen and (max-width: 700px) {
+  .vintage-photo-container {
+    margin: 15px 0;
+    padding: 0 5px;
+  }
+  
+  .vintage-photo {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .vintage-photo:hover {
+    transform: none; /* Disable hover effects on mobile */
+  }
+  
+  .vintage-photo-caption {
+    font-size: 0.75rem;
+    margin-top: 8px;
+    padding: 0 5px;
+    line-height: 1.3;
+  }
+  
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 15px 0;
+  }
+  
+  .photo-grid .vintage-photo {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .single-photo {
+    max-width: 100%;
+    margin: 15px auto;
+    padding: 0 5px;
+  }
+  
+  .single-photo .vintage-photo {
+    height: 220px;
+    width: 100%;
+  }
+  
+  .vintage-frame {
+    padding: 10px;
+    border-radius: 12px;
+    margin: 0 5px;
+  }
+  
+  .vintage-frame::before {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 8px;
+  }
+  
+  .vintage-frame .vintage-photo {
+    border-radius: 6px;
+  }
+}
+
+/* Tablet Styles - Enhanced Responsiveness */
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+  .vintage-photo-container {
+    margin: 20px 0;
+    padding: 0 10px;
+  }
+  
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .photo-grid .vintage-photo {
+    height: 200px;
+  }
+  
+  .single-photo {
+    max-width: 450px;
+    padding: 0 10px;
+  }
+  
+  .single-photo .vintage-photo {
+    height: 280px;
+  }
+  
+  .vintage-frame {
+    padding: 15px;
+    margin: 0 10px;
+  }
+  
+  .vintage-photo-caption {
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+}
 .vintage-photo-container {
   margin: 30px 0;
   text-align: center;
@@ -501,70 +689,6 @@
   border-radius: 10px;
 }
 
-/* Mobile Vintage Photo Styles */
-@media only screen and (max-width: 700px) {
-  .vintage-photo-container {
-    margin: 20px 0;
-  }
-  
-  .vintage-photo {
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  }
-  
-  .vintage-photo-caption {
-    font-size: 0.8rem;
-    margin-top: 10px;
-  }
-  
-  .photo-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin: 20px 0;
-  }
-  
-  .photo-grid .vintage-photo {
-    height: 200px;
-  }
-  
-  .single-photo {
-    max-width: 100%;
-    margin: 20px auto;
-  }
-  
-  .single-photo .vintage-photo {
-    height: 250px;
-  }
-  
-  .vintage-frame {
-    padding: 15px;
-    border-radius: 15px;
-  }
-  
-  .vintage-frame::before {
-    top: 8px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    border-radius: 10px;
-  }
-}
-
-/* Tablet Vintage Photo Styles */
-@media only screen and (min-width: 700px) and (max-width: 1023px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
-  .photo-grid .vintage-photo {
-    height: 220px;
-  }
-  
-  .single-photo .vintage-photo {
-    height: 300px;
-  }
-}
 
 /* Mobile Styles */
 @media only screen and (max-width: 700px) {
@@ -972,7 +1096,195 @@
   }
 }
 
-/* Vintage Photo Styles */
+/* Vintage Photo Styles - Responsive Design */
+.vintage-photo-container {
+  margin: 30px 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.vintage-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  filter: sepia(20%) contrast(1.1) brightness(1.05);
+  transition: all 0.3s ease;
+  border: 3px solid #f5f5f5;
+  width: 100%;
+}
+
+.vintage-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+  filter: sepia(10%) contrast(1.15) brightness(1.1);
+}
+
+.vintage-photo-caption {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.photo-grid .vintage-photo {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.single-photo {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+.single-photo .vintage-photo {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Vintage Photo Frame Effect */
+.vintage-frame {
+  position: relative;
+  padding: 20px;
+  background: linear-gradient(45deg, #f4f1e8, #e8e0d0);
+  border-radius: 20px;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+  margin: 0 10px;
+}
+
+.vintage-frame::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid #8b7355;
+  border-radius: 15px;
+  pointer-events: none;
+}
+
+.vintage-frame .vintage-photo {
+  border: none;
+  border-radius: 10px;
+}
+
+/* Mobile Styles - Enhanced Responsiveness */
+@media only screen and (max-width: 700px) {
+  .vintage-photo-container {
+    margin: 15px 0;
+    padding: 0 5px;
+  }
+  
+  .vintage-photo {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .vintage-photo:hover {
+    transform: none; /* Disable hover effects on mobile */
+  }
+  
+  .vintage-photo-caption {
+    font-size: 0.75rem;
+    margin-top: 8px;
+    padding: 0 5px;
+    line-height: 1.3;
+  }
+  
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 15px 0;
+  }
+  
+  .photo-grid .vintage-photo {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .single-photo {
+    max-width: 100%;
+    margin: 15px auto;
+    padding: 0 5px;
+  }
+  
+  .single-photo .vintage-photo {
+    height: 220px;
+    width: 100%;
+  }
+  
+  .vintage-frame {
+    padding: 10px;
+    border-radius: 12px;
+    margin: 0 5px;
+  }
+  
+  .vintage-frame::before {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 8px;
+  }
+  
+  .vintage-frame .vintage-photo {
+    border-radius: 6px;
+  }
+}
+
+/* Tablet Styles - Enhanced Responsiveness */
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+  .vintage-photo-container {
+    margin: 20px 0;
+    padding: 0 10px;
+  }
+  
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .photo-grid .vintage-photo {
+    height: 200px;
+  }
+  
+  .single-photo {
+    max-width: 450px;
+    padding: 0 10px;
+  }
+  
+  .single-photo .vintage-photo {
+    height: 280px;
+  }
+  
+  .vintage-frame {
+    padding: 15px;
+    margin: 0 10px;
+  }
+  
+  .vintage-photo-caption {
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+}
 .vintage-photo-container {
   margin: 30px 0;
   text-align: center;
@@ -1055,70 +1367,6 @@
   border-radius: 10px;
 }
 
-/* Mobile Vintage Photo Styles */
-@media only screen and (max-width: 700px) {
-  .vintage-photo-container {
-    margin: 20px 0;
-  }
-  
-  .vintage-photo {
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  }
-  
-  .vintage-photo-caption {
-    font-size: 0.8rem;
-    margin-top: 10px;
-  }
-  
-  .photo-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin: 20px 0;
-  }
-  
-  .photo-grid .vintage-photo {
-    height: 200px;
-  }
-  
-  .single-photo {
-    max-width: 100%;
-    margin: 20px auto;
-  }
-  
-  .single-photo .vintage-photo {
-    height: 250px;
-  }
-  
-  .vintage-frame {
-    padding: 15px;
-    border-radius: 15px;
-  }
-  
-  .vintage-frame::before {
-    top: 8px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    border-radius: 10px;
-  }
-}
-
-/* Tablet Vintage Photo Styles */
-@media only screen and (min-width: 700px) and (max-width: 1023px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
-  .photo-grid .vintage-photo {
-    height: 220px;
-  }
-  
-  .single-photo .vintage-photo {
-    height: 300px;
-  }
-}
 
 /* Tablet Styles */
 @media only screen and (min-width: 700px) and (max-width: 1023px) {
@@ -1534,7 +1782,195 @@
   }
 }
 
-/* Vintage Photo Styles */
+/* Vintage Photo Styles - Responsive Design */
+.vintage-photo-container {
+  margin: 30px 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.vintage-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  filter: sepia(20%) contrast(1.1) brightness(1.05);
+  transition: all 0.3s ease;
+  border: 3px solid #f5f5f5;
+  width: 100%;
+}
+
+.vintage-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+  filter: sepia(10%) contrast(1.15) brightness(1.1);
+}
+
+.vintage-photo-caption {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.photo-grid .vintage-photo {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.single-photo {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+.single-photo .vintage-photo {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Vintage Photo Frame Effect */
+.vintage-frame {
+  position: relative;
+  padding: 20px;
+  background: linear-gradient(45deg, #f4f1e8, #e8e0d0);
+  border-radius: 20px;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+  margin: 0 10px;
+}
+
+.vintage-frame::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid #8b7355;
+  border-radius: 15px;
+  pointer-events: none;
+}
+
+.vintage-frame .vintage-photo {
+  border: none;
+  border-radius: 10px;
+}
+
+/* Mobile Styles - Enhanced Responsiveness */
+@media only screen and (max-width: 700px) {
+  .vintage-photo-container {
+    margin: 15px 0;
+    padding: 0 5px;
+  }
+  
+  .vintage-photo {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .vintage-photo:hover {
+    transform: none; /* Disable hover effects on mobile */
+  }
+  
+  .vintage-photo-caption {
+    font-size: 0.75rem;
+    margin-top: 8px;
+    padding: 0 5px;
+    line-height: 1.3;
+  }
+  
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 15px 0;
+  }
+  
+  .photo-grid .vintage-photo {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .single-photo {
+    max-width: 100%;
+    margin: 15px auto;
+    padding: 0 5px;
+  }
+  
+  .single-photo .vintage-photo {
+    height: 220px;
+    width: 100%;
+  }
+  
+  .vintage-frame {
+    padding: 10px;
+    border-radius: 12px;
+    margin: 0 5px;
+  }
+  
+  .vintage-frame::before {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 8px;
+  }
+  
+  .vintage-frame .vintage-photo {
+    border-radius: 6px;
+  }
+}
+
+/* Tablet Styles - Enhanced Responsiveness */
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+  .vintage-photo-container {
+    margin: 20px 0;
+    padding: 0 10px;
+  }
+  
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .photo-grid .vintage-photo {
+    height: 200px;
+  }
+  
+  .single-photo {
+    max-width: 450px;
+    padding: 0 10px;
+  }
+  
+  .single-photo .vintage-photo {
+    height: 280px;
+  }
+  
+  .vintage-frame {
+    padding: 15px;
+    margin: 0 10px;
+  }
+  
+  .vintage-photo-caption {
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+}
 .vintage-photo-container {
   margin: 30px 0;
   text-align: center;
@@ -1617,67 +2053,3 @@
   border-radius: 10px;
 }
 
-/* Mobile Vintage Photo Styles */
-@media only screen and (max-width: 700px) {
-  .vintage-photo-container {
-    margin: 20px 0;
-  }
-  
-  .vintage-photo {
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  }
-  
-  .vintage-photo-caption {
-    font-size: 0.8rem;
-    margin-top: 10px;
-  }
-  
-  .photo-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin: 20px 0;
-  }
-  
-  .photo-grid .vintage-photo {
-    height: 200px;
-  }
-  
-  .single-photo {
-    max-width: 100%;
-    margin: 20px auto;
-  }
-  
-  .single-photo .vintage-photo {
-    height: 250px;
-  }
-  
-  .vintage-frame {
-    padding: 15px;
-    border-radius: 15px;
-  }
-  
-  .vintage-frame::before {
-    top: 8px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    border-radius: 10px;
-  }
-}
-
-/* Tablet Vintage Photo Styles */
-@media only screen and (min-width: 700px) and (max-width: 1023px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
-  .photo-grid .vintage-photo {
-    height: 220px;
-  }
-  
-  .single-photo .vintage-photo {
-    height: 300px;
-  }
-}
