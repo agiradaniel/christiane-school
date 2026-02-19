@@ -1,0 +1,5 @@
+- Once I have Tagged this file in a chat please follow the set rules
+- Avoid creating Unnecessary files eg explanation files, .md files, test files unless requested
+- Focus on the files being updated only
+- You can create files but only if necessary for the particular functionality
+- Try as much as possible to stay within context and to avoid hallucinations
